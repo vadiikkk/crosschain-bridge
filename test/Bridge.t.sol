@@ -10,8 +10,8 @@ contract BridgeTest is Test {
     Bridge bridgeA;
     Bridge bridgeB;
 
-    address user     = address(0xCAFE);
-    address relayer  = address(0xBEEF);
+    address user = address(0xCAFE);
+    address relayer = address(0xBEEF);
     address attacker = address(0xDEAD);
 
     event Deposit(address indexed from, address indexed to, uint256 amount, bytes32 depositId, uint256 toChainId);
