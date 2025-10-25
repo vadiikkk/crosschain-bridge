@@ -10,7 +10,7 @@ contract VadimTokenTest is Test {
     address user = address(0xCAFE);
 
     function setUp() public {
-        token = new VadimToken("Vadim Token", "VAD");
+        token = new VadimToken("Vadim Token", "VDM");
         token.grantRole(token.MINT_ROLE(), bridge);
         token.grantRole(token.BURN_ROLE(), bridge);
     }
