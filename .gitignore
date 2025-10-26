@@ -2,6 +2,10 @@
 cache/
 out/
 
+# Node.js
+relayer/node_modules/
+relayer/package-lock.json
+
 # Ignores development broadcast logs
 !/broadcast
 /broadcast/*/31337/
